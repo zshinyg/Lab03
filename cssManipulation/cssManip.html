@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="cssManip.css">
+    <script src="cssManip.js"></script>
+    <title>CSS Manipulation</title>
+</head>
+<body>
+
+    <div id="para">
+        <p style="border-style:solid;">OK, first off: a lion? Swimming in the ocean? Lions don’t 
+            like water. If you placed it near a river or some sort of 
+            fresh water source, that make sense. But you find yourself 
+            in the ocean, 20 foot wave, I’m assuming off the coast of 
+            South Africa, coming up against a full grown 800 pound tuna 
+            with his 20 or 30 friends, you lose that battle, you lose that 
+            battle 9 times out of 10. And guess what, you’ve wandered into 
+            our school of tuna and we now have a taste of lion. We’ve talked 
+            to ourselves. We’ve communicated and said ‘You know what, 
+            lion tastes good, let’s go get some more lion’. We’ve developed 
+            a system to establish a beach-head and aggressively hunt you and 
+            your family and we will corner your pride, your children, your 
+            offspring. … We will construct a series of breathing apparatus 
+            with kelp. We will be able to trap certain amounts of oxygen. 
+            It’s not gonna be days at a time. An hour? Hour forty-five? No 
+            problem. That will give us enough time to figure out where you 
+            live, go back to the sea, get more oxygen, and then stalk you.
+            You just lost at your own game. You’re outgunned and out-manned. … 
+            Did that go the way you thought it was gonna go? Nope.</p>
+    </div>
+
+    <h3>Border:</h3>
+
+    <div class="pValues">
+        <label for="redVal">Red Value (0-255)</label>
+        <input type="text" name="Red Value" id="redVal">
+    </div>
+
+    <div class="pValues">
+        <label for="greenVal">Green Value (0-255)</label>
+        <input type="text" name="Green Value" id="greenVal">
+    </div>
+       
+    <div class="pValues">
+        <label for="blueVal">Blue Value (0-255)</label>
+        <input type="text" name="Blue Value" id="blueVal">
+    </div>
+
+    <div class="pValues">
+        <label for="widthVal">Width</label>
+        <input type="text" name="Width" id="widthVal">
+    </div>
+
+    <h3>Background Color:</h3>
+
+    <div class="pValues">
+        <label for="redBackVal">Red Value (0-255)</label>
+        <input type="text" name="Red Value" id="redBackVal">
+    </div>
+
+    <div class="pValues">
+        <label for="greenBackVal">Green Value (0-255)</label>
+        <input type="text" name="Green Value" id="greenBackVal">
+    </div>
+        
+    <div class="pValues">
+        <label for="blueBackVal">Blue Value (0-255)</label>
+        <input type="text" name="Blue Value" id="blueBackVal">
+    </div>
+
+    <div>
+        <button onclick="changeColors()" type="submit" id="submit">Submit</button>
+    </div>
+
+</body>
+</html>
