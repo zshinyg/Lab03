@@ -12,8 +12,10 @@ function changeColors(){
     
     let newBorderColor = ("rgb("+ redVal + ',' + greenVal + ',' + blueVal+ ")");
     let newWidth = width + "px";
-    console.log(newBorderColor);
-    document.getElementById("para").style.borderColor = "newBorderColor";
-    document.getElementById("para").style.borderWidth = "newWidth";
+    let newBackColor = ("rgb("+ redBackVal + ',' + greenBackVal + ',' + blueBackVal+ ")");
+
+    document.getElementById("para").style.borderColor = newBorderColor;
+    document.getElementById("para").style.borderWidth = newWidth;
+    document.getElementById("para").style.backgroundColor = newBackColor;
 
 }

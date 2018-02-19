@@ -17,7 +17,7 @@ function validatePassword(){
 
     console.log(password);
     console.log(passwordValidate);
-    if( password == passwordValidation){
+    if( password == passwordValidation && password.length >= 8 ){
         alert("Success! your password has been validated");
         return;
     }
