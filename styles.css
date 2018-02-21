@@ -3,13 +3,8 @@
     color: whitesmoke;
 }
 
-.card-deck {
-    width: 500px;
-    height: 325px;
-}
-
 body {
-    background-color: rgb(73, 79, 89);
+    background-color: rgb(46, 50, 56);
     margin: 10px;
 }
 
